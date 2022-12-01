@@ -21,9 +21,10 @@ class LinkedList {
     void print(std::ostream &out);
 
     //❓❓ Question 10: Declare the other linked list methods here:
-
-
-
+int length ();
+bool contains(string needle);
+void insertAt(int pos, string value);
+void deleteAt(int pos);
 
 };
 
