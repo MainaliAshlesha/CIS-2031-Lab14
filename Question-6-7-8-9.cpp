@@ -14,7 +14,9 @@ class Player {
     public:
         //❓❓ QUESTION 9, add the constructor here:
 
-        
+        Player(string n, int nm){
+            name = n; 
+            hitPoints = nm;
 
         string getName(){
             return name;
@@ -34,6 +36,8 @@ class Player {
 
 int main(){
     //❓❓ QUESTION 9, add to the main function here:
-
+ Player a+ Player("Player" 44)
+     addPlayername(2)
+    cout << a.getName() << "and" <<a.getHitPoints();
 
 }
